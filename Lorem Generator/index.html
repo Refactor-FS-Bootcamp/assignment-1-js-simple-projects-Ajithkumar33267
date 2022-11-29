@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Text Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <h3>Lorem Ipsum Generator</h3>
+        <form class="form">
+            <!-- <label for="numOfPara">Paragraphs:</label> -->
+            <select name="" id="selectOption" class="option">
+                <option class="option" id="paras" selected>Paragraphs</option>
+                <option class="option" id="words">Words</option>
+            </select>
+            <div class="paraAmountNum">
+                <input type="range" min="1" max="10" value="5" id="numOfParaRange">
+                <input type="number" id="numOfPara" min="1" max="10" value="5">
+            </div>
+            <button type="submit" class="btn">Generate</button>
+        </form>
+        <article class="lorem-text display-word">
+        </article>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

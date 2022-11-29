@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(140, 160, 179);
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  padding: 20px 50px;
+  margin: 20px;
+  min-height: 100px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-container h3 {
+  color: red;
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.form {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form #numOfParaRange {
+  cursor: pointer;
+}
+
+.form .option {
+  padding: 5px 10px;
+  font-size: 14px;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form .paraAmountNum {
+  padding: 10px;
+}
+
+.paraAmountNum #numOfPara {
+  padding: 5px;
+  background-color: white;
+  border: 2px solid gray;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 8px 10px;
+  background-color: white;
+  color: #006eff;
+  border: 1px solid #006eff;
+  outline: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #006eff;
+  color: white;
+}
+
+.result {
+  width: 80vw;
+  margin: 1rem auto;
+}
+
+.result-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
